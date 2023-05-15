@@ -1,0 +1,39 @@
+h1.titulo{
+	text-align: center; /*1_*/
+}
+
+p.fuente{
+	font-family: serif; /*2_Una regla para aplicar una fuente con serifas (declaración font-family: serif;) 
+	a todos los párrafos del documento.*/
+}
+
+p#primer-parrafo{
+	 background-color: #CEE; /*3_Una regla para que el elemento con id #primer-parrafo tenga color de fondo #CEE.*/
+}
+
+p#primer-parrafo.importante.parrafo em{
+	color: #913; /*4_Una regla para cambiar el color a #933 para los elementos <em> del primer párrafo.*/
+}
+
+body p a[href*="https:"]{
+	outline: 1px solid #333; /*5_Una regla para que todos los links muestren outline (declaración outline: 1px solid #333)*/
+}
+
+body p a.fuente.parrafo{
+	opacity: 100px; /*6_Una regla para que el texto p.fuente tenga su opacidad en 100% (se puede usar la declaración opacity: 100%;).*/
+}
+
+html body p.fuente.parrafo{
+	color: #000 !important;/*7_Una regla para que el texto del elemento p.fuente tenga color #000.*/
+}
+
+body article#contenedor p.novelas.parrafo span.complicado{
+	font-weight: bold;
+	color: #c62 !important;
+
+}
+
+
+
+
+
